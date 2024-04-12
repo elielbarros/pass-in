@@ -63,3 +63,9 @@ Criar as entidades
 - Representação em forma de classe das tabelas criadas utilizando migrations
 
 Criar os repositories que faz a manipulação das entidades
+- Attendee, Checkin e Event
+
+Criar controllers
+- Attendee e Event
+- Não será criado uma controller para checkin já que isso eh uma 
+  funcionalidade do participante (attendee)
