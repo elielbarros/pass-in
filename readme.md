@@ -58,3 +58,8 @@ Migrations
     mesmo email se inscreva mais que uma vez para o mesmo evento
   - INDEX check_ins_attendee_id_key: para que o participante só possa 
     realizar o checkin uma unica vez
+
+Criar as entidades
+- Representação em forma de classe das tabelas criadas utilizando migrations
+
+Criar os repositories que faz a manipulação das entidades
