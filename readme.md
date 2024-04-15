@@ -69,3 +69,7 @@ Criar controllers
 - Attendee e Event
 - Não será criado uma controller para checkin já que isso eh uma 
   funcionalidade do participante (attendee)
+
+Postman public link
+- https://elements.getpostman.com/redirect?entityId=19615025-b76acb8b-dce5-4cbd-805e-811e4b06555d&entityType=collection
+
