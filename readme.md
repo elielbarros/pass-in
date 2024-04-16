@@ -73,3 +73,5 @@ Criar controllers
 Postman public link
 - https://elements.getpostman.com/redirect?entityId=19615025-b76acb8b-dce5-4cbd-805e-811e4b06555d&entityType=collection
 
+As informações de participantes estão dentro de EventController pois 
+participantes pertencem ao evento.
