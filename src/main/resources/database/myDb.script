@@ -29,7 +29,7 @@ SET FILES NIO TRUE
 SET FILES NIO SIZE 256
 SET FILES LOG TRUE
 SET FILES LOG SIZE 50
-SET FILES CHECK 818
+SET FILES CHECK 1024
 SET DATABASE COLLATION "SQL_TEXT" PAD SPACE
 CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
 ALTER USER SA SET LOCAL TRUE
@@ -59,4 +59,4 @@ INSERT INTO "flyway_schema_history" VALUES(2,'2','create-table-attendees','SQL',
 INSERT INTO "flyway_schema_history" VALUES(3,'3','create-table-checkins','SQL','V3__create-table-checkins.sql',-378327417,'SA','2024-04-11 22:14:48.369085',1,'1')
 INSERT INTO "flyway_schema_history" VALUES(4,'4','create-indexes','SQL','V4__create-indexes.sql',-266755805,'SA','2024-04-11 22:14:48.375595',1,'1')
 INSERT INTO EVENTS VALUES('4345c129-d6ad-4b24-9782-174fb5bcbe6f','Event Title','Event details','event-title',50)
-INSERT INTO ATTENDEES VALUES('4345c129-d6ad-4b24-9782-174fb5bcbe6f','John Doe','jdoe@email.com','4345c129-d6ad-4b24-9782-174fb5bcbe6f',NULL)
+INSERT INTO ATTENDEES VALUES('f6785406-b251-4250-80e3-e73f779bf404','John Doe','jdoe@email.com','4345c129-d6ad-4b24-9782-174fb5bcbe6f','2024-04-16 21:49:50.629872')
